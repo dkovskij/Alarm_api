@@ -11,6 +11,7 @@ $name = $_REQUEST['name'];
 $sale = $_REQUEST['sale'];
 $option = $_REQUEST['option'];
 $phone = $_REQUEST['phone'];
+$email = $_REQUEST['email'];
 
 $leads['add']=array(
   array(
@@ -45,7 +46,27 @@ $contacts['add']=array(
 					'enum' => "WORK"
 				)
 				)
-			)
+			),
+
+	        array(
+	            'id' => 366371,
+	            'values' => array(
+	            	array(
+					'value' => $email,
+					'enum' => "WORK"
+				)
+				)
+			),
+
+			array(
+	            'id' => 385063,
+	            'values' => array(
+	            	array(
+					'value' => $option
+				)
+				)
+			),
+
 		)
 	)
 );
