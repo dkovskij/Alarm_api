@@ -38,10 +38,12 @@ $contacts['add']=array(
 		// 'leads_id' => array( "1" ),
 		'custom_fields' => array(
 	        array(
-	            'id' => '366369',
+	            'id' => 366369,
 	            'values' => array(
+	            	array(
 					'value' => $phone,
 					'enum' => "WORK"
+				)
 				)
 			)
 		)
